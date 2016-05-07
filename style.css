@@ -1,0 +1,12 @@
+/**
+ * Theme Name:     Tapa Theme - Twenty Sixteen Child
+ * Theme URI:      http: //example.com/
+ * Description:    Child theme for the Twenty Sixteen theme 
+ * Author:         HeeWon Lee
+ * Author URI:     http: //example.com/about/
+ * Template:       twentysixteen
+ * Version:        0.0.1
+ **/
+
+@import url("../twentysixteen/style.css");
+
