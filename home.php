@@ -12,7 +12,7 @@ $sql_recent_all = array (
 );
 query_posts($sql_recent_all);
 if(have_posts()): while(have_posts()) : the_post();
-	get_template_part('content','excerpt');
+	get_template_part('content','home');
 endwhile; endif;
 ?>
 </div>
@@ -49,7 +49,7 @@ $q1 = [
 query_posts($q1);
 if(have_posts()): while(have_posts()): 
 	the_post();
-	get_template_part('content','excerpt');
+	get_template_part('content','home');
 endwhile; endif;
  */
 ?>
