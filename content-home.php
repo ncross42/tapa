@@ -1,5 +1,5 @@
 <!-- <?post_class();?> -->
-<div class="col-sm-3">
+<div class="col-sx-12 col-sm-6 col-md-4 col-lg-3">
 	<h2><a href="<? the_permalink();?>"><?the_title();?></a></h2>
 	<p class="postcat"><?the_category(' ');?></p>
 

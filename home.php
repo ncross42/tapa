@@ -2,7 +2,7 @@
 
 <div class="container">
 
-<p class="title">RECENT POST</p>
+<p class="title">관심 주제</p>
 <div class="row">
 <?
 $sql_recent_all = array (
@@ -17,7 +17,7 @@ endwhile; endif;
 ?>
 </div>
 
-<p class="title">RECENT OFFER</p>
+<p class="title">최근주제</p>
 <div class="row">
 <?
 $sql_recent_all = array (
@@ -27,13 +27,13 @@ $sql_recent_all = array (
 );
 query_posts($sql_recent_all);
 if(have_posts()): while(have_posts()) : the_post();
-	get_template_part('content','excerpt');
+	get_template_part('content','home');
 endwhile; endif;
 ?>
 </div>
 
 
-<p class="title">RECENT MINE</p>
+<p class="title">지난 주제</p>
 <?
 /*
 $q1 = [
