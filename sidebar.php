@@ -8,8 +8,10 @@
  */
 ?>
 
-	<aside id="secondary" class="sidebar widget-area" role="complementary" style='border:1px solid;'>
-<?php 
+<?php if ( is_active_sidebar( 'sidebar-1' )  ) : ?>
+	<aside id="secondary" class="sidebar widget-area" role="complementary">
+<?php
+/*
 if( function_exists('dob_get_sub_categories') ) {
 	$categories = dob_get_sub_categories();
 	if ( ! empty($categories) ) {
@@ -20,5 +22,8 @@ if( function_exists('dob_get_sub_categories') ) {
 		echo $html .= '</ul>';
 	}
 } else file_put_contents('/tmp/no_func.err','no function dob_get_sub_categories');
+ */
 ?>
+		<?php dynamic_sidebar( 'sidebar-1' ); ?>
 	</aside><!-- .sidebar .widget-area -->
+<?php endif; ?>
