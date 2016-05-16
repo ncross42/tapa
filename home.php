@@ -2,7 +2,7 @@
 
 <div class="container">
 
-<p class="title">관심 주제</p>
+<p class="title">최근 포스트</p>
 <div class="row">
 <?
 $sql_recent_all = array (
@@ -12,12 +12,12 @@ $sql_recent_all = array (
 );
 query_posts($sql_recent_all);
 if(have_posts()): while(have_posts()) : the_post();
-	get_template_part('content','home');
+	get_template_part('content','excerpt');
 endwhile; endif;
 ?>
 </div>
 
-<p class="title">최근주제</p>
+<p class="title">최근 공개발의</p>
 <div class="row">
 <?
 $sql_recent_all = array (
@@ -27,13 +27,13 @@ $sql_recent_all = array (
 );
 query_posts($sql_recent_all);
 if(have_posts()): while(have_posts()) : the_post();
-	get_template_part('content','home');
+	get_template_part('content','excerpt');
 endwhile; endif;
 ?>
 </div>
 
 
-<p class="title">지난 주제</p>
+<p class="title">최근 비밀투표</p>
 <?
 /*
 $q1 = [

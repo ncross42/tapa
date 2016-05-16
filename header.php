@@ -75,9 +75,6 @@
 				<?php endif; ?>
 			</div><!-- .site-header-main -->
 		  
-		    <p  class="slogan" style="text-align:center;font-size:30px;margin:0;"><strong>상하계층간</strong>의 힘의 균형
-		  			<span style="text-align:center;font-size:16px;margin:0;">누구나 참여할수 있는 민주주의</span>
-		    </p>
 			<?php if ( !is_user_logged_in() && get_header_image() ) : ?>
 				<div class="header-image">
 					<?php get_template_part('header','carousel'); ?>

@@ -10,9 +10,15 @@
 
 
 @import url(http://fonts.googleapis.com/earlyaccess/nanumbarungothic.css);
+.carousel-control.right {background:none !important;}
+.carousel-control.left{background:none !important;}
+.carousel-inner {
+	  background: #ebf2f8 !important;}
+.carousel-inner > .item > a > img {margin:0 auto;}
 .container {
     width: auto !important;
 }
+.carousel-inner > .item{text-align:center;}
 .container > .row > .col-md-4 {
   white-space: nowrap !important;
    overflow: hidden !important;
@@ -1000,6 +1006,7 @@ blockquote.aligncenter {
     min-width: 0;
     overflow: hidden;
 }
+/*
 .custom-logo-link {
     display: block;
 }
@@ -1007,13 +1014,14 @@ blockquote.aligncenter {
     max-width: 180px;
 }
 .site-title {    
-   margin-right: 20pt;
+  margin-right: 20pt;
   width:231px;height:41px;
   background:url(http://wp1.youthpower.kr/wp-content/uploads/2016/04/cropped-text_2901x471.png) no-repeat center center;
 }
 .site-title a{
 font-size: 0;
 }
+*/
 
 .site-branding .site-title a {
     color: #1a1a1a;
