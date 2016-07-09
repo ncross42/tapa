@@ -9,7 +9,7 @@
  **/
 
 
-@import url(http://fonts.googleapis.com/earlyaccess/nanumbarungothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 .carousel-control.right {background:none !important;}
 .carousel-control.left{background:none !important;}
 .carousel-inner {
@@ -45,12 +45,12 @@ font-size:3rem;
 .h2, h2 {
     font-size: 25px;
 }
-*{font-family:"nanumbarungothic","helvetica";color:#666;text-decoration:none;}
+*{font-family:"nanumgothic","helvetica";color:#666;text-decoration:none;}
 a, a:hover, a:active{text-decoration:none;}
 
 
 html {
-    font-family: 'nanumbarungothic;
+    font-family: 'nanumgothic;
 }
 body {
     margin: 0;
@@ -2362,7 +2362,7 @@ body:not(.search-results) .entry-summary .alignright {
 body:not(.search-results) .entry-summary .aligncenter {
     margin-bottom: 1.52174em;
 }
-}
+
 @media print {
 form, button, input, select, textarea, .navigation, .main-navigation, .social-navigation, .sidebar, .content-bottom-widgets, .header-image, .page-links, .edit-link, .comment-respond, .comment-edit-link, .comment-reply-link, .comment-metadata .edit-link, .pingback .edit-link {
     display: none;
@@ -2457,12 +2457,12 @@ body:not(.search-results) .entry-header + .entry-summary {
 .site-footer, .widecolumn {
     padding: 0;
 }
-}
+
 #page{width:100%;margin:0 auto;border-top: solid 2px #23A4D7;}
 
 @media screen and (max-width: 860px) {
   .site-title {
-    background: rgba(0, 0, 0, 0) url("http://wp1.youthpower.kr/wp-content/uploads/2016/05/DO_wb.jpg") no-repeat scroll center center;
+    /*background: rgba(0, 0, 0, 0) url("http://wp1.youthpower.kr/wp-content/uploads/2016/05/DO_wb.jpg") no-repeat scroll center center;*/
     background-size:100%;;
 	height:5rem;
     margin-left:1rem;

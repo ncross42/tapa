@@ -40,4 +40,20 @@ function load_bootstrap_local() {
 	wp_enqueue_style( 'bootstrap-css-theme', ASSETS_URL.'bootstrap-3.3.6-dist/css/bootstrap.min.css' );
 }
 
+add_action( 'widgets_init', 'dobalance_widgets_init' );
+function dobalance_widgets_init() {
+  twentysixteen_widgets_init();
+  if (function_exists('register_sidebar')) {
+    register_sidebar(array(
+      'name' => __('Widget DoBalance', 'dobalance'),
+      'description' => __('Sidebar of DoBalance Voting', 'dobalance'),
+      'id' => 'widget-dobalance',
+      'before_widget' => '<div id="%1$s" class="%2$s">',
+      'after_widget' => '</div>',
+      'before_title' => '<h3>',
+      'after_title' => '</h3>'
+    ));
+  }
+}
+
 ?>
